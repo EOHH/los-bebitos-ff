@@ -1,0 +1,142 @@
+body{
+    background-color: white;
+    text-align: justify;
+} 
+img{
+    width: 80%;
+    height: auto !important;
+}
+.logo{
+    width: 200px;
+    height: auto;
+}
+.cabezap{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(40, 139, 239);
+}
+.cabeza{
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    padding: 40px;
+    margin: 40px;
+}
+header{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.descripcion{
+    color: white;
+    background-color: rgb(40, 139, 239);
+    border: solid 0.5em #FAC022;
+    
+}
+.carousel-inner div img{
+    height: 500px;
+}
+h2, p{
+    margin: 20px;
+    padding: 10px;
+    color: white;
+}
+.navegador{
+    padding: 10px;
+    margin: 10px;
+}
+.container-fluid div ul li a {
+    color: #FAC022;
+  }
+.pie{
+    text-align: center;
+    font-size: 1.25rem;
+    background-color: #212529;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.pie a{
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    color: #212529;
+    border-radius: 10px;
+}
+.pie h3{
+    padding: 10px;
+    margin: 15px;
+    color: #FAC022;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    padding: 10px;
+    justify-content:space-around;
+    padding: 15px;
+}
+.div1{
+    display: flex;
+    width: 20%;
+    color: white;
+    flex-direction: column;
+    justify-content:space-around;
+    text-align: justify;
+}
+.footer div img{
+    width: 400px;
+    height: auto;
+    border: 5px solid #FAC022;
+    border-radius: 10px;
+}
+footer h3{
+    padding: 15px;
+    color: white;
+}
+footer{
+    background-color: rgb(40, 139, 239);
+    border: solid 0.5em #FAC022;
+}
+.map{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    background-color: #212529;
+}
+.map1{
+    margin: 15px;
+    height: 50%;
+    width: 50% !important;
+
+}
+.map1 iframe{
+    width: 100%;
+}
+.map2{
+    width: 400px;
+    text-align: justify;
+    color: #FAC022;
+}
+.map2 p{
+    width: 100%;
+    text-align: justify;
+    color: #FAC022;
+}
+.navbar-toggler-icon{
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.navbar-toggler{
+    background-color: #FAC022;
+}

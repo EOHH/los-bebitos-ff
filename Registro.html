@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" name="viewport" content="width=device-width, initial-scale=1, IE=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/Registro.css">
+    <title>Seva</title>
+  </head>
+  <header class="cabezap">
+    <nav class="navbar navbar-expand-lg bg-dark">
+      <div class="container container-fluid">
+        <a class="navbar-brand" href="index.html"></a>
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="Registro.html">Seva</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="Calculadora.html">Calculadora</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="Misión.html">Misión y Visión</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Niveles
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="Niveles.html">PRIMARIA Y SECUNDARIA</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+    <body>
+      <h1>Registro de Notas</h1>
+      <form action="">
+        <table>
+          <thead>
+            <tr>
+              <th>Carrera/Curso</th>
+              <th>Año</th>
+              <th>Periodo</th>
+              <th>Profesor(a)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Diseño y Desarrollo de Software - Matemática</td>
+              <td>2022</td>
+              <td>1 Ciclo</td>
+              <td>Juan José, León Suiyon</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="table-responsive">
+                <table class="tabla table">
+                  <tbody>
+                    <tr>
+                      <th rowspan="2">#</th>        
+                      <th rowspan="2">Nombre</th>
+                      <th colspan="3">Aula</th>
+                      <th colspan="3">Laboratorio</th>
+                      <th class="azulclaro" colspan="2">Promedio</th>
+                      <th class="azulmasclaro" rowspan="2">Nota final</th>
+                      <th class="azulmasclaro" rowspan="2">Situación</th>
+                    </tr>
+                    <tr>
+                      <th>A1</th>
+                      <th>A2</th>
+                      <th>A3</th>
+                      <th>L1</th>
+                      <th>L2</th>
+                      <th>L3</th>
+                      <th class="azulclaro">PA</th>
+                      <th class="azulclaro">PL</th>
+                    </tr>
+                    <tr class="celeste">
+                      <td class="centro">1</td>
+                      <td>Chigne Medina, Bruno Esteban</td>
+                      <td><input type="number" id="n1"></td>
+                      <td><input type="number" id="n1-1"></td>
+                      <td><input type="number" id="n1-2"></td>
+                      <td><input type="number" id="n1-3"></td>
+                      <td><input type="number" id="n1-4"></td>
+                      <td><input type="number" id="n1-5"></td>
+                      <td class="azulclaro"><input disabled="disabled" type="text" id="p1"></td>
+                      <td class="azulclaro"><input disabled="disabled" type="text" id="p1-1"></td>
+                      <td class="azulmasclaro"><input disabled="disabled" type="text" id="p1-2"></td>
+                      <td class="azulmasclaro"><input disabled="disabled" type="text" id="situacion1"></td>
+                    </tr>
+                    <tr class="blanco">
+                      <td class="centro">2</td>
+                      <td>Churivanti Alva, Jhon Williams</td>
+                      <td><input type="number" id="n2"></td>
+                      <td><input type="number" id="n2-1"></td>
+                      <td><input type="number" id="n2-2"></td>
+                      <td><input type="number" id="n2-3"></td>
+                      <td><input type="number" id="n2-4"></td>
+                      <td><input type="number" id="n2-5"></td>
+                      <td class="azulclaro"><input disabled="disabled" type="text" id="p2"></td>
+                      <td class="azulclaro"><input disabled="disabled" type="text" id="p2-1"></td>
+                      <td class="azulmasclaro"><input disabled="disabled" type="text" id="p2-2"></td>
+                      <td class="azulmasclaro"><input disabled="disabled" type="text" id="situacion2"></td>
+                    </tr>
+                    <tr class="celeste">
+                      <td class="centro">3</td>
+                      <td>Cruz Cuba, Daniel Antonio</td>
+                      <td><input type="number" id="n3"></td>
+                      <td><input type="number" id="n3-1"></td>
+                      <td><input type="number" id="n3-2"></td>
+                      <td><input type="number" id="n3-3"></td>
+                      <td><input type="number" id="n3-4"></td>
+                      <td><input type="number" id="n3-5"></td>
+                      <td class="azulclaro"><input disabled="disabled" type="text" id="p3"></td>
+                      <td class="azulclaro"><input disabled="disabled" type="text" id="p3-1"></td>
+                      <td class="azulmasclaro"><input disabled="disabled" type="text" id="p3-2"></td>
+                      <td class="azulmasclaro"><input disabled="disabled" type="text" id="situacion3"></td>
+                    </tr>
+                    <tr class="blanco">
+                      <td class="centro">4</td>
+                      <td>Cuba Porras, Alvaro Antonio</td>
+                      <td><input type="number" id="n4"></td>
+                      <td><input type="number" id="n4-1"></td>
+                      <td><input type="number" id="n4-2"></td>
+                      <td><input type="number" id="n4-3"></td>
+                      <td><input type="number" id="n4-4"></td>
+                      <td><input type="number" id="n4-5"></td>
+                      <td class="azulclaro"><input disabled="disabled" type="text" id="p4"></td>
+                      <td class="azulclaro"><input disabled="disabled" type="text" id="p4-1"></td>
+                      <td class="azulmasclaro"><input disabled="disabled" type="text" id="p4-2"></td>
+                      <td class="azulmasclaro"><input disabled="disabled" type="text" id="situacion4"></td>
+                    </tr>
+                    <tr class="celeste">
+                      <td class="centro">5</td>
+                      <td>Ferrer Rupaylla, Diego José</td>
+                      <td><input type="number" id="n5"></td>
+                      <td><input type="number" id="n5-1"></td>
+                      <td><input type="number" id="n5-2"></td>
+                      <td><input type="number" id="n5-3"></td>
+                      <td><input type="number" id="n5-4"></td>
+                      <td><input type="number" id="n5-5"></td>
+                      <td class="azulclaro"><input disabled="disabled" type="text" id="p5"></td>
+                      <td class="azulclaro"><input disabled="disabled" type="text" id="p5-1"></td>
+                      <td class="azulmasclaro"><input disabled="disabled" type="text" id="p5-2"></td>
+                      <td class="azulmasclaro"><input disabled="disabled" type="text" id="situacion5"></td>
+                    </tr>
+                    <tr class="blanco">
+                      <td class="centro">6</td>
+                      <td>Geurra Tacanga, Jorge Augusto</td>
+                      <td><input type="number" id="n6"></td>
+                      <td><input type="number" id="n6-1"></td>
+                      <td><input type="number" id="n6-2"></td>
+                      <td><input type="number" id="n6-3"></td>
+                      <td><input type="number" id="n6-4"></td>
+                      <td><input type="number" id="n6-5"></td>
+                      <td class="azulclaro"><input disabled="disabled" type="text" id="p6"></td>
+                      <td class="azulclaro"><input disabled="disabled" type="text" id="p6-1"></td>
+                      <td class="azulmasclaro"><input disabled="disabled" type="text" id="p6-2"></td>
+                      <td class="azulmasclaro"><input disabled="disabled" type="text" id="situacion6"></td>
+                    </tr>
+                    <tr class="celeste">
+                      <td class="centro">7</td>
+                      <td>Huaman Huanca, Edilson Oswaldo</td>
+                      <td><input type="number" id="n7"></td>
+                      <td><input type="number" id="n7-1"></td>
+                      <td><input type="number" id="n7-2"></td>
+                      <td><input type="number" id="n7-3"></td>
+                      <td><input type="number" id="n7-4"></td>
+                      <td><input type="number" id="n7-5"></td>
+                      <td class="azulclaro"><input disabled="disabled" type="text" id="p7"></td>
+                      <td class="azulclaro"><input disabled="disabled" type="text" id="p7-1"></td>
+                      <td class="azulmasclaro"><input disabled="disabled" type="text" id="p7-2"></td>
+                      <td class="azulmasclaro"><input disabled="disabled" type="text" id="situacion7"></td>
+                    </tr>
+                    <tr class="blanco">
+                      <td class="centro">8</td>
+                      <td>Huaman Urrutia, Jean Francis Alessandro</td>
+                      <td><input type="number" id="n8"></td>
+                      <td><input type="number" id="n8-1"></td>
+                      <td><input type="number" id="n8-2"></td>
+                      <td><input type="number" id="n8-3"></td>
+                      <td><input type="number" id="n8-4"></td>
+                      <td><input type="number" id="n8-5"></td>
+                      <td class="azulclaro"><input disabled="disabled" type="text" id="p8"></td>
+                      <td class="azulclaro"><input disabled="disabled" type="text" id="p8-1"></td>
+                      <td class="azulmasclaro"><input disabled="disabled" type="text" id="p8-2"></td>
+                      <td class="azulmasclaro"><input disabled="disabled" type="text" id="situacion8"></td>
+                    </tr>
+                    <tr class="celeste">
+                      <td class="centro">9</td>
+                      <td>Huanca Vergara, Enrique Elias</td>
+                      <td><input type="number" id="n9"></td>
+                      <td><input type="number" id="n9-1"></td>
+                      <td><input type="number" id="n9-2"></td>
+                      <td><input type="number" id="n9-3"></td>
+                      <td><input type="number" id="n9-4"></td>
+                      <td><input type="number" id="n9-5"></td>
+                      <td class="azulclaro"><input disabled="disabled" type="text" id="p9"></td>
+                      <td class="azulclaro"><input disabled="disabled" type="text" id="p9-1"></td>
+                      <td class="azulmasclaro"><input disabled="disabled" type="text" id="p9-2"></td>
+                      <td class="azulmasclaro"><input disabled="disabled" type="text" id="situacion9"></td>
+                    </tr>
+                    <tr class="blanco">
+                      <td class="centro">10</td>
+                      <td>Marmolejo Peinado, Miguel Alejandro</td>
+                      <td><input type="number" id="n10"></td>
+                      <td><input type="number" id="n10-1"></td>
+                      <td><input type="number" id="n10-2"></td>
+                      <td><input type="number" id="n10-3"></td>
+                      <td><input type="number" id="n10-4"></td>
+                      <td><input type="number" id="n10-5"></td>
+                      <td class="azulclaro"><input disabled="disabled" type="text" id="p10"></td>
+                      <td class="azulclaro"><input disabled="disabled" type="text" id="p10-1"></td>
+                      <td class="azulmasclaro"><input disabled="disabled" type="text" id="p10-2"></td>
+                      <td class="azulmasclaro"><input disabled="disabled" type="text" id="situacion10"></td>
+                    </tr>
+                    <tr class="celeste">
+                      <td class="centro">11</td>
+                      <td>Medrano Canchari, Harold Joel</td>
+                      <td><input type="number" id="n11"></td>
+                      <td><input type="number" id="n11-1"></td>
+                      <td><input type="number" id="n11-2"></td>
+                      <td><input type="number" id="n11-3"></td>
+                      <td><input type="number" id="n11-4"></td>
+                      <td><input type="number" id="n11-5"></td>
+                      <td class="azulclaro"><input disabled="disabled" type="text" id="p11"></td>
+                      <td class="azulclaro"><input disabled="disabled" type="text" id="p11-1"></td>
+                      <td class="azulmasclaro"><input disabled="disabled" type="text" id="p11-2"></td>
+                      <td class="azulmasclaro"><input disabled="disabled" type="text" id="situacion11"></td>
+                    </tr>
+                    <tr class="blanco">
+                      <td class="centro">12</td>
+                      <td>Melendez Cora, Ragde Luis</td>
+                      <td><input type="number" id="n12"></td>
+                      <td><input type="number" id="n12-1"></td>
+                      <td><input type="number" id="n12-2"></td>
+                      <td><input type="number" id="n12-3"></td>
+                      <td><input type="number" id="n12-4"></td>
+                      <td><input type="number" id="n12-5"></td>
+                      <td class="azulclaro"><input disabled="disabled" type="text" id="p12"></td>
+                      <td class="azulclaro"><input disabled="disabled" type="text" id="p12-1"></td>
+                      <td class="azulmasclaro"><input disabled="disabled" type="text" id="p12-2"></td>
+                      <td class="azulmasclaro"><input disabled="disabled" type="text" id="situacion12"></td>
+                    </tr>
+                    <tr class="celeste">
+                      <td class="centro">13</td>
+                      <td>Moreno Diaz, Nelson Cesar</td>
+                      <td><input type="number" id="n13"></td>
+                      <td><input type="number" id="n13-1"></td>
+                      <td><input type="number" id="n13-2"></td>
+                      <td><input type="number" id="n13-3"></td>
+                      <td><input type="number" id="n13-4"></td>
+                      <td><input type="number" id="n13-5"></td>
+                      <td class="azulclaro"><input disabled="disabled" type="text" id="p13"></td>
+                      <td class="azulclaro"><input disabled="disabled" type="text" id="p13-1"></td>
+                      <td class="azulmasclaro"><input disabled="disabled" type="text" id="p13-2"></td>
+                      <td class="azulmasclaro"><input disabled="disabled" type="text" id="situacion13"></td>
+                    </tr>
+                    <tr class="blanco">
+                      <td class="centro">14</td>
+                      <td>Pascual Clemente, Juan Leonardo</td>
+                      <td><input type="number" id="n14"></td>
+                      <td><input type="number" id="n14-1"></td>
+                      <td><input type="number" id="n14-2"></td>
+                      <td><input type="number" id="n14-3"></td>
+                      <td><input type="number" id="n14-4"></td>
+                      <td><input type="number" id="n14-5"></td>
+                      <td class="azulclaro"><input disabled="disabled" type="text" id="p14"></td>
+                      <td class="azulclaro"><input disabled="disabled" type="text" id="p14-1"></td>
+                      <td class="azulmasclaro"><input disabled="disabled" type="text" id="p14-2"></td>
+                      <td class="azulmasclaro"><input disabled="disabled" type="text" id="situacion14"></td>
+                    </tr>
+                    <tr class="celeste">
+                      <td class="centro">15</td>
+                      <td>Sanchez Meza, José Raúl</td>
+                      <td><input type="number" id="n15"></td>
+                      <td><input type="number" id="n15-1"></td>
+                      <td><input type="number" id="n15-2"></td>
+                      <td><input type="number" id="n15-3"></td>
+                      <td><input type="number" id="n15-4"></td>
+                      <td><input type="number" id="n15-5"></td>
+                      <td class="azulclaro"><input disabled="disabled" type="text" id="p15"></td>
+                      <td class="azulclaro"><input disabled="disabled" type="text" id="p15-1"></td>
+                      <td class="azulmasclaro"><input disabled="disabled" type="text" id="p15-2"></td>
+                      <td class="azulmasclaro"><input disabled="disabled" type="text" id="situacion15"></td>
+                    </tr>
+                    <tr class="blanco">
+                      <td class="centro" class="centro">16</td>
+                      <td>Sapallanay Sapallanay, Jhennifer Mercedes</td>
+                      <td><input type="number" id="n16"></td>
+                      <td><input type="number" id="n16-1"></td>
+                      <td><input type="number" id="n16-2"></td>
+                      <td><input type="number" id="n16-3"></td>
+                      <td><input type="number" id="n16-4"></td>
+                      <td><input type="number" id="n16-5"></td>
+                      <td class="azulclaro"><input disabled="disabled" type="text" id="p16"></td>
+                      <td class="azulclaro"><input disabled="disabled" type="text" id="p16-1"></td>
+                      <td class="azulmasclaro"><input disabled="disabled" type="text" id="p16-2"></td>
+                      <td class="azulmasclaro"><input disabled="disabled" type="text" id="situacion16"></td>
+                    </tr>
+                    <tr class="celeste">
+                      <td class="centro">17</td>
+                      <td>Tafur Deledesma, Adrián Aldair</td>
+                      <td><input type="number" id="n17"></td>
+                      <td><input type="number" id="n17-1"></td>
+                      <td><input type="number" id="n17-2"></td>
+                      <td><input type="number" id="n17-3"></td>
+                      <td><input type="number" id="n17-4"></td>
+                      <td><input type="number" id="n17-5"></td>
+                      <td class="azulclaro"><input disabled="disabled" type="text" id="p17"></td>
+                      <td class="azulclaro"><input disabled="disabled" type="text" id="p17-1"></td>
+                      <td class="azulmasclaro"><input disabled="disabled" type="text" id="p17-2"></td>
+                      <td class="azulmasclaro"><input disabled="disabled" type="text" id="situacion17"></td>
+                    </tr>
+                    <tr class="blanco">
+                      <td class="centro">18</td>
+                      <td>Vargas Alejos, Sandor Pablo</td>
+                      <td><input type="number" id="n18"></td>
+                      <td><input type="number" id="n18-1"></td>
+                      <td><input type="number" id="n18-2"></td>
+                      <td><input type="number" id="n18-3"></td>
+                      <td><input type="number" id="n18-4"></td>
+                      <td><input type="number" id="n18-5"></td>
+                      <td class="azulclaro"><input disabled="disabled" type="text" id="p18"></td>
+                      <td class="azulclaro"><input disabled="disabled" type="text" id="p18-1"></td>
+                      <td class="azulmasclaro"><input disabled="disabled" type="text" id="p18-2"></td>
+                      <td class="azulmasclaro"><input disabled="disabled" type="text" id="situacion18"></td>
+                    </tr>
+                    <tr class="celeste">
+                      <td class="centro">19</td>
+                      <td>Veli Mariano, Benjamin Jhosep</td>
+                      <td><input type="number" id="n19"></td>
+                      <td><input type="number" id="n19-1"></td>
+                      <td><input type="number" id="n19-2"></td>
+                      <td><input type="number" id="n19-3"></td>
+                      <td><input type="number" id="n19-4"></td>
+                      <td><input type="number" id="n19-5"></td>
+                      <td class="azulclaro"><input disabled="disabled" type="text" id="p19"></td>
+                      <td class="azulclaro"><input disabled="disabled" type="text" id="p19-1"></td>
+                      <td class="azulmasclaro"><input disabled="disabled" type="text" id="p19-2"></td>
+                      <td class="azulmasclaro"><input disabled="disabled" type="text" id="situacion19"></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>  
+        </div>
+      </form>
+      <input class="listo" type="button" value="Listo" onclick="promedio()">
+      <script src="Js/Seva.js"></script>
+    </body>
+</html>

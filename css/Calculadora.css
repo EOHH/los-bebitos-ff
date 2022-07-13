@@ -1,0 +1,82 @@
+body {
+  background-image: url("https://canalextremadura.es/sites/default/files/Media/Images/2016-10/machu-picchu-wider-view_aux.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+h3 p{
+  color: white;
+}
+.logo{
+  width: 200px;
+  height: auto;
+}
+.cabezap{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(40, 139, 239);
+}
+.container-fluid div ul li a {
+  color: #FAC022;
+}
+.contai{
+  padding: 10px;
+  margin: 10px;
+}
+h2{
+  text-align: center;
+  font-size: 3em;
+  font-weight: bold;
+  color: black;
+}
+.calculadora{
+  width: 100%;
+  max-width: 400px;
+  height: 500px;
+  text-align: center;
+  border: solid 3px #FAC022;
+  border-radius: 10px 10px 10px 10px;
+  padding-bottom: 10px;
+  margin: auto;
+  background: #212529;
+  color: #ccc;
+}
+input[type=textfield]{
+  width: 75%;
+  padding: 16px 32px;
+  font-size: 16px;
+  margin: 8px 0;
+  border: 1px solid silver;
+  border-radius: 1px;
+  text-align: left;
+  color: #333;
+  background: #ccc;
+}
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #FAC022;
+  border: none;
+  color: #212529;
+  padding: 16px 32px;
+  font-size: 16px;
+  min-width: 21%;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+  background-color: #333;
+}
+.navbar-toggler-icon{
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.navbar-toggler{
+  background-color: #FAC022;
+}

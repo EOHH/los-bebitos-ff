@@ -1,0 +1,98 @@
+body{
+    background-image: url("https://canalextremadura.es/sites/default/files/Media/Images/2016-10/machu-picchu-wider-view_aux.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    color: white
+}
+h3 p{
+    color: white;
+}
+.logo{
+    width: 200px;
+    height: auto;
+}
+.cabezap{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(40, 139, 239);
+}
+.container-fluid div ul li a {
+    color: #FAC022;
+}
+h1{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    color: black;
+}
+.prim{
+    display: flex;
+    flex-direction: column;
+    text-shadow: 4px 2px 4px black;
+}
+.a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.a div{
+    width: 25%;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(239, 43, 40);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    border: 0.5em solid #a4070a;
+    border-radius: 10px;
+}
+.nb{
+    background-color: rgb(40, 139, 239);
+    border: 0.5em solid #FAC022;
+    padding: 10px;
+    margin: 10px;
+}
+.xz{
+    text-align: center;  
+}
+.mn{
+    font-size: 1.25em;
+    font-style: italic;
+    font-weight: bold;
+    color: #a4070a;
+}
+.pie{
+    text-align: center;
+    font-size: 1.25rem;
+    background-color: rgb(40, 139, 239);
+    border: 0.5em solid #FAC022;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 10px;
+}
+.pie a{
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    color: rgb(40, 139, 239);
+    border-radius: 5px;
+}
+.pie h3{
+    padding: 10px;
+    margin: 15px;
+}
+.navbar-toggler-icon{
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.navbar-toggler{
+    background-color: #FAC022;
+}
